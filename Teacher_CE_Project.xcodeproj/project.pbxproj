@@ -13,6 +13,11 @@
 		A79A62EC1B113C8C003E16B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79A62EB1B113C8C003E16B6 /* Images.xcassets */; };
 		A79A62EF1B113C8C003E16B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79A62ED1B113C8C003E16B6 /* LaunchScreen.xib */; };
 		A79A62FB1B113C8D003E16B6 /* Teacher_CE_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A62FA1B113C8D003E16B6 /* Teacher_CE_ProjectTests.swift */; };
+		A79A630F1B14E59E003E16B6 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A630E1B14E59E003E16B6 /* StudentViewController.swift */; };
+		A79A63111B14E683003E16B6 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A63101B14E683003E16B6 /* Students.swift */; };
+		A79A63131B14E6C7003E16B6 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A63121B14E6C7003E16B6 /* SampleData.swift */; };
+		A79A63151B14EE24003E16B6 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A63141B14EE24003E16B6 /* HoursViewController.swift */; };
+		A79A63171B14F66D003E16B6 /* PlaceHolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A63161B14F66D003E16B6 /* PlaceHolderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A79A62F41B113C8D003E16B6 /* Teacher_CE_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Teacher_CE_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79A62F91B113C8D003E16B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79A62FA1B113C8D003E16B6 /* Teacher_CE_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher_CE_ProjectTests.swift; sourceTree = "<group>"; };
+		A79A630E1B14E59E003E16B6 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		A79A63101B14E683003E16B6 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		A79A63121B14E6C7003E16B6 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A79A63141B14EE24003E16B6 /* HoursViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
+		A79A63161B14F66D003E16B6 /* PlaceHolderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				A79A62EB1B113C8C003E16B6 /* Images.xcassets */,
 				A79A62ED1B113C8C003E16B6 /* LaunchScreen.xib */,
 				A79A62E21B113C8C003E16B6 /* Supporting Files */,
+				A79A630E1B14E59E003E16B6 /* StudentViewController.swift */,
+				A79A63101B14E683003E16B6 /* Students.swift */,
+				A79A63121B14E6C7003E16B6 /* SampleData.swift */,
+				A79A63141B14EE24003E16B6 /* HoursViewController.swift */,
+				A79A63161B14F66D003E16B6 /* PlaceHolderModel.swift */,
 			);
 			path = Teacher_CE_Project;
 			sourceTree = "<group>";
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79A63151B14EE24003E16B6 /* HoursViewController.swift in Sources */,
+				A79A630F1B14E59E003E16B6 /* StudentViewController.swift in Sources */,
 				A79A62E71B113C8C003E16B6 /* ViewController.swift in Sources */,
 				A79A62E51B113C8C003E16B6 /* AppDelegate.swift in Sources */,
+				A79A63131B14E6C7003E16B6 /* SampleData.swift in Sources */,
+				A79A63111B14E683003E16B6 /* Students.swift in Sources */,
+				A79A63171B14F66D003E16B6 /* PlaceHolderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +433,7 @@
 				A79A63001B113C8D003E16B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79A63011B113C8D003E16B6 /* Build configuration list for PBXNativeTarget "Teacher_CE_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +442,7 @@
 				A79A63031B113C8D003E16B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
